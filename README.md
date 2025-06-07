@@ -56,7 +56,7 @@ This project uses **PySpark** and **SparkSQL** to analyze home sales data stored
 
 | **Scenario**                 | **Query Runtime (Approx.)**             |
 |-----------------------------|------------------------------------------|
-| Uncached query              | 1.03 seconds                             |
+| Uncached query              | 0.89 seconds                             |
 | Cached query (first run)    | 2.02 seconds *(due to caching overhead)* |
 | Partitioned Parquet         | 1.32 seconds *(Faster than Cached)*      |
 
